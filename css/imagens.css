@@ -1,0 +1,29 @@
+.carrousel{
+    width: 300px;
+    /* max-height: 30%; */
+}
+
+.fundo{
+    background-color:rgb(255, 255, 255);
+}
+
+.fundoLogo{
+    background-color:#b0c9e8;
+}
+
+.logo{
+    width: 150px;
+}
+
+.letraAzul{
+    color: #b0c9e8;
+    font-style: normal;
+
+}
+
+.aviso{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;  
+}
