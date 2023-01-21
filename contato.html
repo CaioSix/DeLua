@@ -66,10 +66,10 @@
         <header class="py-5 fundo">
             <div class="container px-4 px-lg-5 my-5 ">
                 <div class="text-center letraAzul ">
-                    <h1 class="display-4 fw-bolder">Catálogo DeLua</h1>
-                    <p class="lead fw-normal letraAzul-50 mb-0">Artes em Resina</p>
+                    <h1 class="display-4 sublogo fw-bolder">Página em manutenção, entre em Contato Pelo WhastApp para fazer sua encomenda!</h1>
+                    <!-- <p class="lead fw-normal letraAzul-50 mb-0">Artes em Resina</p>
                     <br>
-                    <p class="display-2 sublogo fw-bolder">Chaveiro + Caneta</p>
+                    <p class="display-2 sublogo fw-bolder">Chaveiro + Caneta</p> -->
                 </div>
             </div>
         </header>
@@ -77,25 +77,33 @@
         <section class="py-5 fundo">
             <div class="container px-4 px-lg-5 mt-5">
                 <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <!-- Product image-->
-                            <img class="card-img-top" src="imagens/kit/1.jpeg" alt="..." />
-                            <!-- Product details-->
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <!-- Product name-->
-                                    <h5 class="fw-bolder"> Chaveiro + Caneta</h5>
-                                    <!-- Product price-->
-                                    $50,00
-                                </div>
-                            </div>
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="contato.html">Comprar</a></div>
-                            </div>
-                        </div>
-                    </div>
+                    <div class="formularioContato">
+        
+                        <form action="#" method="post" enctype="multipart/form-data">
+                            <label>
+                                <span><i class="icon icon-user-1"></i> Nome</span>
+                                <input type="text" name="nome" required="">
+                            </label>
+                            
+                            <label>
+                                <span><i class="icon icon-email"></i> E-mail</span>
+                                <input type="text" name="email" class="fade_8S">
+                            </label>
+                            <label>
+                                <span><i class="icon icon-flag"></i> Assunto</span>
+                                <input type="text" name="assunto" required="">
+                            </label>
+                            
+                            <label>
+                                <span><i class="icon icon-comment"></i> Mensagem</span>
+                                 <textarea name="mensagem" rows="3" required=""></textarea> 
+                            </label>
+                           
+                            <input type="hidden" name="acao" value="enviar" />
+                            <button class="btn-envia" title="Enviar"><b class="icon icon-paper-plane-o"> Enviar</b></button>
+                        
+                        </form>
+                    </div><!--Formulario Contato-->
                    
                 </div>
             </div>
